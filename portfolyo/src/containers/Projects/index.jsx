@@ -1,11 +1,7 @@
 import React from "react";
 
 const Projects = () => {
-    return (
-        <div className="projects">
- 
-        </div>
-    )
-}
+  return <div id="projects"></div>;
+};
 
 export default Projects;

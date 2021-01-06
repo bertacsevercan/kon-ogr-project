@@ -5,21 +5,21 @@ import Home from "./containers/Home";
 import Contact from "./containers/Contact";
 import Projects from "./containers/Projects";
 import About from "./containers/About";
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Comments from "./containers/Comments";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Projects />
-      <About />
-      <Comments />
-      <Contact />
-    </div>
+      <div className="App">
+        <NavBar />
+        <Home />
+        <Projects />
+        <About />
+        <Comments />
+        <Contact />
+      </div>
     </I18nextProvider>
   );
 }
