@@ -9,3 +9,7 @@
 #home {
   padding: 1rem;
 }
+
+#profilePic {
+  border: 1rem solid black;
+}

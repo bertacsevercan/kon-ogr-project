@@ -1,8 +1,9 @@
 import React from "react";
-import pcImg from "../../images/pcImg.png";
+import pp from "../../images/pp.jpg";
 import { useTranslation } from "react-i18next";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 import "./style.css";
 
 const Home = () => {
@@ -27,7 +28,14 @@ const Home = () => {
           </div>
           <Button href="#contact">{t("contact.titles.title0")}</Button>
         </div>
-        <img width="500px" height="500px" src={pcImg} alt="computer" />
+        <Image
+          id="profilePic"
+          width="400px"
+          height="450px"
+          src={pp}
+          alt="computer"
+          rounded
+        />
       </Jumbotron>
     </div>
   );
