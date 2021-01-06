@@ -1,3 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background: url(./images/backImg.jpg) no-repeat center;
+  background-size: cover;
 }
