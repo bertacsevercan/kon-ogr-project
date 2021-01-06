@@ -1,0 +1,11 @@
+#jumbo {
+  display: flex;
+}
+
+#jumbo h2 {
+  padding-bottom: 2rem;
+}
+
+#home {
+  padding: 1rem;
+}
