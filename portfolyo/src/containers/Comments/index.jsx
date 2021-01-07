@@ -1,5 +1,5 @@
 import React from "react";
-import ToastBody from 'react-bootstrap/ToastBody';
+import Toast from 'react-bootstrap/Toast';
 import "./style.css";
 
 const Comments = () => {
