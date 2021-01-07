@@ -62,7 +62,7 @@ const Projects = () => {
             <Image
               rounded
               className="d-block w-100"
-              height="500px"
+              height="600px"
               src={project.img}
               alt="First slide"
             />
