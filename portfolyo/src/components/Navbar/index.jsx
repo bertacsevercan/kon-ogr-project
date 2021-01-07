@@ -11,7 +11,7 @@ const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Navbar expanded={expanded} bg="danger" variant="dark" expand="lg">
+    <Navbar id="nav" expanded={expanded} bg="danger" variant="dark" expand="lg">
       <Navbar.Brand id="nav-title" href="#home">
         Bertaç Severcan
       </Navbar.Brand>

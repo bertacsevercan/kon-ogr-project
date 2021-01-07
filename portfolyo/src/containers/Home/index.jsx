@@ -19,14 +19,17 @@ const Home = () => {
             <p className="summary-text">
               {t("home.texts.text0")}
               <br />
+              <br />
               {t("home.texts.text1")}
               <br />
+              <br />
               {t("home.texts.text2")}
+              <br />
               <br />
               {t("home.texts.text3")}
             </p>
           </div>
-          <Button href="#contact">{t("contact.titles.title0")}</Button>
+          <Button id="contactButton" href="#contact">{t("contact.titles.title0")}</Button>
         </div>
         <Image
           id="profilePic"

@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
 .App {
   min-height: 100vh;
   background: url(./images/backImg.jpg) no-repeat center;
   background-size: cover;
-  font-family: "Lobster", cursive;
+  font-family: 'Alegreya', serif;
 }
