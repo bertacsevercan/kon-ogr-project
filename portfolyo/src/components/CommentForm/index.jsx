@@ -39,7 +39,6 @@ const CommentForm = ({
 
   return (
     <div className="form">
-      {date.getSeconds()}
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>{t("comments.labels.label0")}</Form.Label>
