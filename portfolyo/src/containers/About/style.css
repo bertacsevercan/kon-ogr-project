@@ -1,19 +1,18 @@
 #jumbo {
   display: flex;
-  background-color: #F2C078;
+  background-color: #f2c078;
 }
 
 #jumbo h2 {
   padding-bottom: 2rem;
 }
 
-#home {
+#about {
   padding: 1rem;
-  
 }
 
 #profilePic {
-  border: 1em solid #59656F;
+  border: 1em solid #59656f;
 }
 
 .summary-wrapper {
@@ -22,5 +21,5 @@
 }
 
 #contactButton {
-  background-color: #1D4E89;
+  background-color: #1d4e89;
 }

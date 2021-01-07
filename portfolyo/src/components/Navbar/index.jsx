@@ -20,9 +20,13 @@ const NavBar = () => {
         aria-controls="basic-navbar-nav"
       />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="justify-content-end" style={{ flex: 1 }}>
+        <Nav
+          defaultActiveKey="#about"
+          className="justify-content-end"
+          style={{ flex: 1 }}
+        >
           <Nav.Item>
-            <Nav.Link onClick={() => setExpanded(false)} href="#home">
+            <Nav.Link onClick={() => setExpanded(false)} href="#about">
               {t("navbar.links.link0")}
             </Nav.Link>
           </Nav.Item>
@@ -32,22 +36,21 @@ const NavBar = () => {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link onClick={() => setExpanded(false)} href="#about">
+            <Nav.Link onClick={() => setExpanded(false)} href="#comments">
               {t("navbar.links.link2")}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link onClick={() => setExpanded(false)} href="#comments">
+            <Nav.Link onClick={() => setExpanded(false)} href="#contact">
               {t("navbar.links.link3")}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link onClick={() => setExpanded(false)} href="#contact">
-              {t("navbar.links.link4")}
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <NavDropdown title="Language" drop="left" id="basic-nav-dropdown">
+            <NavDropdown
+              title={t("navbar.links.link4")}
+              drop="left"
+              id="basic-nav-dropdown"
+            >
               <NavDropdown.Item
                 id="tr"
                 onClick={() => {

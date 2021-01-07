@@ -1,5 +1,5 @@
 {
-  "home": {
+  "about": {
     "titles": {
       "title0": "Merhaba, Dünya!",
       "title1": "Benim adım Bertaç Severcan,"
@@ -17,12 +17,11 @@
   },
   "navbar": {
     "links": {
-      "link0": "Ana sayfa",
+      "link0": "Hakkımda",
       "link1": "Projelerim",
-      "link2": "Hakkımda",
-      "link3": "Yorumlar",
-      "link4": "İletişim",
-      "link5": "Dil"
+      "link2": "Yorumlar",
+      "link3": "İletişim",
+      "link4": "Dil"
     },
     "languages": {
       "tr": "Türkçe",
