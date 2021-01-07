@@ -1,0 +1,21 @@
+#comments {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f2c078;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.form-wrapper {
+  width: 50%;
+  padding-right: 1rem;
+}
+
+.toast-wrapper {
+  width: 50%;
+  padding-left: 1rem;
+}

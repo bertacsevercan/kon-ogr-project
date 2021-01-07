@@ -58,7 +58,7 @@ const Projects = () => {
       <h1>{t("projects.title")}</h1>
       <Carousel id="carousel">
         {projectObjList.map((project) => (
-          <Carousel.Item>
+          <Carousel.Item key={project.title}>
             <Image
               rounded
               className="d-block w-100"
