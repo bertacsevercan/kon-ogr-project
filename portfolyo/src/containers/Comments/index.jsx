@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Row, Col } from "react-bootstrap";
-import Toast from "react-bootstrap/Toast";
+import { Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import CommentForm from "../../components/CommentForm";
+import Comment from "../../components/Comment";
 import "./style.css";
 
 const Comments = () => {
@@ -49,22 +49,14 @@ const Comments = () => {
         <div className="toast-wrapper">
           <Row>
             {commentList.map((x, index) => (
-              <Col key={index} sm={24} xs={12} md={12} xl={6}>
-                <Toast show={visible[index]} onClose={() => toggleHide(index)}>
-                  <Toast.Header>
-                    <strong className="mr-auto">
-                      {x.name !== "" ? x.name : t("comments.texts.text3")};
-                    </strong>
-                    <small>
-                      {date.getMinutes() - x.time > 0
-                        ? date.getMinutes() - x.time
-                        : t("comments.texts.text4")}{" "}
-                      {t("comments.texts.text5")}
-                    </small>
-                  </Toast.Header>
-                  <Toast.Body>{x.message}</Toast.Body>
-                </Toast>
-              </Col>
+              <Comment
+                key={index + x.name}
+                x={x}
+                index={index}
+                toggleHide={toggleHide}
+                visible={visible}
+                date={date}
+              />
             ))}
           </Row>
         </div>
