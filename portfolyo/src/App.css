@@ -4,4 +4,9 @@
   background: url(./images/backImg.jpg) no-repeat center;
   background-size: cover;
   font-family: "Alegreya", serif;
+  position: relative;
+}
+
+.content-wrapper {
+  padding-bottom: 6rem;
 }
