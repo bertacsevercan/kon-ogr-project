@@ -48,10 +48,10 @@ const Comments = () => {
         </div>
         <div className="toast-wrapper">
           <Row>
-            {commentList.map((x, index) => (
+            {commentList.map((comment, index) => (
               <Comment
-                key={index + x.name}
-                x={x}
+                key={index + comment.name}
+                comment={comment}
                 index={index}
                 toggleHide={toggleHide}
                 visible={visible}

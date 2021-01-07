@@ -3,7 +3,7 @@ import { Col } from "react-bootstrap";
 import Toast from "react-bootstrap/Toast";
 import { useTranslation } from "react-i18next";
 
-const Comment = ({ index, visible, toggleHide, x, date }) => {
+const Comment = ({ index, visible, toggleHide, comment, date }) => {
   const { t } = useTranslation();
 
   return (
@@ -12,16 +12,16 @@ const Comment = ({ index, visible, toggleHide, x, date }) => {
         <Toast show={visible[index]} onClose={() => toggleHide(index)}>
           <Toast.Header>
             <strong className="mr-auto">
-              {x.name !== "" ? x.name : t("comments.texts.text3")};
+              {comment.name !== "" ? comment.name : t("comments.texts.text3")};
             </strong>
             <small>
-              {date.getMinutes() - x.time > 0
-                ? date.getMinutes() - x.time
+              {date.getMinutes() - comment.time > 0
+                ? date.getMinutes() - comment.time
                 : t("comments.texts.text4")}{" "}
               {t("comments.texts.text5")}
             </small>
           </Toast.Header>
-          <Toast.Body>{x.message}</Toast.Body>
+          <Toast.Body>{comment.message}</Toast.Body>
         </Toast>
       </Col>
     </>

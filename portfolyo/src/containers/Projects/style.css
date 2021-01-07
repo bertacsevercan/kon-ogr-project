@@ -1,5 +1,5 @@
 #projects {
-  margin: 1rem;
+  margin: 1rem 1rem 3rem 1rem;
   text-align: center;
   background-color: #f2c078;
   border-radius: 10px;
@@ -23,7 +23,7 @@
 }
 
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
+.carousel-control-prev {
   filter: invert(100%);
 }
 

@@ -66,7 +66,7 @@ const CommentForm = ({
             placeholder={t("comments.texts.text1")}
           />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button block variant="primary" type="submit">
           {t("contact.button")}
         </Button>
       </Form>
