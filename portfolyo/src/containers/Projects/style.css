@@ -1,9 +1,38 @@
 #projects {
-  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: #f2c078;
+  border-radius: 10px;
+}
+
+#projects h1 {
+  padding: 1rem 0;
 }
 
 #carousel {
-  padding: 1rem;
-  border: 5px solid #f2c078;
+  margin: 1rem;
+  border: 5px solid gray;
   border-radius: 10px;
+}
+
+.caption {
+  color: #c8f7c5;
+  background-color: #59656f;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
+.external-icon {
+  padding-left: 0.5em;
+  color: black;
+}
+
+.github-icon {
+  padding-right: 0.5em;
+  color: black;
 }

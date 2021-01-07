@@ -9,10 +9,6 @@
       "text1": "İstanbul Bilgi Üniversitesi Yönetim Bilişim Sistemleri ve İngilizce Öğretmenliği bölümleri (ÇAP) mezunuyum ve 6 aylık Re:Coded Web Geliştirme Kampından da başarıyla mezun oldum.",
       "text2": "Python, Java, React, Javascript, HTML, CSS, SQL gibi programlama dillerinde deneyim sahibiyim ve hem backend hem de frontend yazılım geliştirme ile ilgileniyorum.",
       "text3": "Her zaman yenilikler peşinde olmayı ve yeni şeyler öğrenmeyi seviyorum."
-    },
-    "buttons": {
-      "button0": "Projelerime bakın",
-      "button1": "Hakkımda daha fazla"
     }
   },
   "navbar": {
@@ -29,32 +25,17 @@
     }
   },
   "projects": {
-    "titles": {
-      "title0": "Projelerim",
-      "title1": "Diğer projelerim"
-    },
+    "title": "Projelerim",
     "texts": {
-      "text0": "Bu proje ile ekibim ve ben Impact Hub Innovation Hackathon 2020'de 3.lük ödülünü kazandık. Ekip olarak uygulamamızı 3 hafta gibi kısa bir sürede hızlıca geliştirmek için ilk kez SCRUM metodunu kullandık. Uygulama restoranlar için bir envanter yönetim sistemidir ve bu versiyon Tina-Zita şirketi için geliştirilmiştir. Hedefimiz M.Y-Inventory'nin kullanımını mümkün olduğunca kolaylaştırmaktı ve ayrıca farklı olası kullanım durumları için gelişmiş bir mobil kullanıcı deneyimi de ekledik. Uygulama ayrıca üç farklı dili desteklemektedir; İngilizce, Türkçe ve Arapça.",
-      "text1": "Bu web sitesinin amacı, ihtiyacı olanlara yemek kuponu bağışı toplamaktı. Bu proje gerçek hayattaki bir şirket projesine en yakın projey deneyimiydi çünkü bir baş mühendisimiz vardı ve geliştirme metodu olarak SCRUM kullanmıştık. Geliştirme için ReactJS'yi, verileri depolamak için Firebase'i ve stil oluşturmak için Ant Design'ı kullandık. Ödemeleri işlemek için Stripe API, grafikler için ChartJS, blogumuz için Wordpress API, dil desteği için i18next kullandık. Ayrıca tasarımlarımız için bir UI / UX tasarımcısıyla çalıştık ve Figma'yı kullandık.",
-      "text2": "Bu projenin amacı, yapılacaklar uygulamasına benzer bir pano uygulaması oluşturmaktı. Partnerim ve ben haftalık bir egzersiz planlama uygulaması yapmaya karar verdik. Bu projede ReactJS'i ilk kez kullandım ve React'i anlamak için iyi bir uygulama oldu. Ayrıca uygulamayı şekillendirmek için Ant Design'ı ve kullanıcı verilerini depolamak için Google Firebase'i kullandım.",
-      "text3": "Bu proje, filmleri, oyuncuları arayabileceğiniz ve popüler filmleri, TV şovlarını vb. görebileceğiniz IMDb web sitesine benzer bir web sitesidir. Bu projede, ortağım ve ben gerekli film verilerini almak için nesne yönelimli programlama ve MovieDb API kullandık. Ayrıca, vanilya JavaScript, HTML ve stil için CSS ile Bootstrap kullandım.",
-      "text4": "Bu web sitesinin amacı  Madlibs oyunu oynamaktır. Ayrıca Türkçe ve İngilizce dil desteğine sahiptir. Yerel depolamayı kullanarak sözcüklerinizi kaydedebilir. Bu projede, ilk defa pair programming ile bir ortakla çalıştım ve bu benim ilk vanilya JavaScript, HTML, CSS projemdi. Ayrıca, regular expressions, i18next kütüphanesi, yerel depolama gibi teknolojileri tecrübe ettim. Projenin tarzı tamamen CSS idir, yani stil için herhangi bir framework kullanmadım.",
-      "text5": "Bu, TypeORM ile Express js ve REST API alıştırması yapmak için basit bir full stack projesidir. Uygulama, insanları Re:Coded Bootcamp mezuniyetime davet etmek için yapılmıştır.",
-      "text6": "Bu, toplama, çarpma, determinantı bulma ve ters matrislerle ilgilenme gibi çeşitli matris işlemlerini içeren bir JetBrains Academy projesidir.",
-      "text7": "Bu, bir finansal kredi hesaplayıcısı içeren bir JetBrains Academy projesidir. Projenin ilk aşamaları kullanıcıdan girdi alıyor ve konsoldan çalışıyordu. Son aşamada bir CLI programına dönüştü ve terminalden çalışmaya başladı.",
-      "text8": "Bu bir JetBrains Academy projesi ve basit bir adam asmaca oyunudur.",
-      "text9": "Bu bir JetBrains Academy projesi ve iki oyunculu bir tic tac toe oyunudur.",
-      "text10": "Bu bir JetBrains Academy projesi ve bir taş kağıt makas oyunudur.",
-      "text11": "Bu bir JetBrains Academy projesidir ve bu projede, kullanıcının işlem sırasına göre dört işlem yapabileceği akıllı bir hesap makinesi oluşturdum. Ayrıca önceki hesaplamaları hatırlayacak kadar da akıllıdır.",
-      "text12": "Bu bir JetBrains Academy projesidir ve bu projede, kolay, orta, zor gibi farklı yapay zeka seviyerine karşı tic-tac-toe oynayabilirsiniz. Oyun ayrıca iki kişi oynanabilir ve yapay zekalar birbirine karşı oynayabilir."
+      "text0": "Tina Zita gibi restoranların envanterlerini kontrol edebilmeleri için ödüllü envanter yönetim sistemi.",
+      "text1": "İthiyacı olanlara yardım amaçlı bağışçılar ve restoranları bir araya getiren, yemek kuponu bağış sitesi.",
+      "text2": "Haftalık idmanlarınızı girebildiğiniz ve kontrol edebildiğiniz, haftalık idman planlama uygulaması.",
+      "text3": "Movie-DB API kullanan, IMDB benzeri bir film sitesi.",
+      "text4": "Madlibs kelime oyununu oynayabileceğiniz bir web sitesi."
     },
     "links": {
       "link0": "GitHub repository",
       "link1": "Sayfayı ayrı bir pencerede açın"
-    },
-    "bolds": {
-      "bold0": "Çalıştığım konular: ",
-      "bold1": "Kullanılan teknolojiler: "
     }
   },
   "contact": {
