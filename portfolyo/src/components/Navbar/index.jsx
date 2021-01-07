@@ -19,7 +19,7 @@ const NavBar = () => {
       variant="dark"
       expand="lg"
     >
-      <Navbar.Brand id="nav-title" href="#home">
+      <Navbar.Brand id="nav-title" href="#about">
         Bertaç Severcan
       </Navbar.Brand>
       <Navbar.Toggle
