@@ -16,7 +16,7 @@ const Comment = ({ index, visible, toggleHide, comment, date }) => {
             <strong className="mr-auto">
               {comment.name !== "" ? comment.name : t("comments.texts.text3")};
             </strong>
-              <small>
+            <small>
               {date.getMinutes() - comment.time > 0
                 ? date.getMinutes() - comment.time
                 : t("comments.texts.text4")}{" "}

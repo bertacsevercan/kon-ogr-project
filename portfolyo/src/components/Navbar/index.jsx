@@ -19,7 +19,11 @@ const NavBar = () => {
       variant="dark"
       expand="lg"
     >
-      <Navbar.Brand onClick={() => setExpanded(false)} id="nav-title" href="/#about">
+      <Navbar.Brand
+        onClick={() => setExpanded(false)}
+        id="nav-title"
+        href="/#about"
+      >
         Bertaç Severcan
       </Navbar.Brand>
       <Navbar.Toggle

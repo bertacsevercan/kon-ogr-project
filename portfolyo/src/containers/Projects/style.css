@@ -45,6 +45,6 @@
 
 @media screen and (max-width: 425px) {
   #carousel-img {
-    height: 400px
+    height: 400px;
   }
 }

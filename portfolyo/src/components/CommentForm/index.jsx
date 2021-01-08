@@ -27,9 +27,7 @@ const CommentForm = ({
     toggleShow(indexCount);
     setIndexCount(indexCount + 1);
     setComment({ ...comment, time: date.getMinutes() });
-    console.log(comment);
     setCommentList([...commentList, comment]);
-    console.log(commentList);
   };
 
   useEffect(() => {
