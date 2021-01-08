@@ -60,6 +60,7 @@ const Projects = () => {
         {projectObjList.map((project) => (
           <Carousel.Item key={project.title}>
             <Image
+              id="carousel-img"
               rounded
               className="d-block w-100"
               height="600px"
