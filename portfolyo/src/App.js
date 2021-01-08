@@ -4,7 +4,7 @@ import i18n from "./i18n";
 import About from "./containers/About";
 import Contact from "./containers/Contact";
 import Projects from "./containers/Projects";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import Comments from "./containers/Comments";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -14,7 +14,7 @@ function App() {
     <I18nextProvider i18n={i18n}>
       <div className="App">
         <div className="content-wrapper">
-          <NavBar />
+          <Navbar />
           <About />
           <Projects />
           <Comments />
