@@ -21,12 +21,15 @@ const CommentForm = ({
       [e.target.name]: e.target.value,
     });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     toggleShow(indexCount);
     setIndexCount(indexCount + 1);
     setComment({ ...comment, time: date.getMinutes() });
+    console.log(comment);
     setCommentList([...commentList, comment]);
+    console.log(commentList);
   };
 
   useEffect(() => {
@@ -35,7 +38,7 @@ const CommentForm = ({
     return () => {
       clearInterval(timer);
     };
-  });
+  }, [commentList, setDate]);
 
   return (
     <div className="form">

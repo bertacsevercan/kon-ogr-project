@@ -9,14 +9,14 @@ const Comment = ({ index, visible, toggleHide, comment, date }) => {
 
   return (
     <>
-      <Col key={index} sm={24} xs={12} md={12} xl={6}>
+      <Col key={index} sm={12} md={6} xl={3}>
         <Toast show={visible[index]} onClose={() => toggleHide(index)}>
           <Toast.Header>
             <FaUser /> &nbsp; &nbsp;
             <strong className="mr-auto">
               {comment.name !== "" ? comment.name : t("comments.texts.text3")};
             </strong>
-            <small>
+              <small>
               {date.getMinutes() - comment.time > 0
                 ? date.getMinutes() - comment.time
                 : t("comments.texts.text4")}{" "}
