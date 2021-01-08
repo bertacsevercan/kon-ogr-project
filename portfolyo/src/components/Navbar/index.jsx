@@ -33,7 +33,7 @@ const NavBar = () => {
           style={{ flex: 1 }}
         >
           <Nav.Item>
-            <Nav.Link onClick={() => setExpanded(false)} href="/#about">
+            <Nav.Link onClick={() => setExpanded(false)} href="/">
               {t("navbar.links.link0")}
             </Nav.Link>
           </Nav.Item>
