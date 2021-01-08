@@ -15,6 +15,7 @@
 #profilePic {
   border: 1em solid #59656f;
   max-width: 30%;
+  max-height: 400px;
 }
 
 .summary-wrapper {
@@ -26,6 +27,13 @@
   background-color: #1d4e89;
 }
 
+
+@media only screen and (min-width: 2560px) {
+  #profilePic {
+    max-height: none;
+  }
+
+}
 @media screen and (max-width: 1024px) {
   #profilePic {
     max-width: 45%;
