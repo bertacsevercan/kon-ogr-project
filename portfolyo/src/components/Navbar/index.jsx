@@ -19,7 +19,7 @@ const NavBar = () => {
       variant="dark"
       expand="lg"
     >
-      <Navbar.Brand id="nav-title" href="/">
+      <Navbar.Brand id="nav-title" href="/#about">
         Bertaç Severcan
       </Navbar.Brand>
       <Navbar.Toggle
@@ -33,7 +33,7 @@ const NavBar = () => {
           style={{ flex: 1 }}
         >
           <Nav.Item>
-            <Nav.Link onClick={() => setExpanded(false)} href="/">
+            <Nav.Link onClick={() => setExpanded(false)} href="/#about">
               {t("navbar.links.link0")}
             </Nav.Link>
           </Nav.Item>
