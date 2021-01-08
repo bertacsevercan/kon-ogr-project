@@ -9,7 +9,7 @@ const Comment = ({ index, visible, toggleHide, comment, date }) => {
 
   return (
     <>
-      <Col key={index} sm={24} xs={12} md={12} xl={6}>
+      <Col key={index} sm={12} md={6} lg={4} xl={3}>
         <Toast show={visible[index]} onClose={() => toggleHide(index)}>
           <Toast.Header>
             <FaUser /> &nbsp; &nbsp;

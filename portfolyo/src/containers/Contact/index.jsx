@@ -21,7 +21,7 @@ const Contact = () => {
             <Form.Control
               name="email"
               type="email"
-              required="true"
+              required
               placeholder={t("contact.placeholders.holder0")}
             />
           </Form.Group>
@@ -30,7 +30,7 @@ const Contact = () => {
             <Form.Control
               name="fullName"
               placeholder={t("contact.placeholders.holder1")}
-              required="true"
+              required
             />
           </Form.Group>
           <Form.Group controlId="formInputSubject">
@@ -38,14 +38,14 @@ const Contact = () => {
             <Form.Control
               name="subject"
               placeholder={t("contact.placeholders.holder2")}
-              required="true"
+              required
             />
           </Form.Group>
           <Form.Group controlId="form.ControlTextarea">
             <Form.Label>{t("contact.labels.label3")}</Form.Label>
             <Form.Control
               name="message"
-              required="true"
+              required
               placeholder={t("contact.placeholders.holder3")}
               as="textarea"
               rows={3}

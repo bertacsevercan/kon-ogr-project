@@ -6,16 +6,34 @@
   border-radius: 10px;
 }
 
+#pcImg {
+  max-width: 50%;
+  padding-left: 1rem;
+}
+
 .flex-wrapper {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-wrapper {
+  padding-top: 1rem;
   width: 50%;
   padding-right: 1rem;
 }
 
 .toast-wrapper {
-  width: 50%;
-  padding-left: 1rem;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+  #pcImg {
+    display: none;
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
 }

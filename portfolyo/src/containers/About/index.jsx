@@ -35,8 +35,8 @@ const About = () => {
         </div>
         <Image
           id="profilePic"
-          width="400px"
-          height="450px"
+          /*  width="400px"
+          height="450px" */
           src={pp}
           alt="computer"
           rounded

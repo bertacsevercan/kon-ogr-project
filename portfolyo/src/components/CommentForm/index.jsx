@@ -21,6 +21,7 @@ const CommentForm = ({
       [e.target.name]: e.target.value,
     });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     toggleShow(indexCount);
@@ -35,7 +36,7 @@ const CommentForm = ({
     return () => {
       clearInterval(timer);
     };
-  });
+  }, [commentList, setDate]);
 
   return (
     <div className="form">

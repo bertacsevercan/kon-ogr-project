@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Row } from "react-bootstrap";
+import { Row, Image } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import CommentForm from "../../components/CommentForm";
 import Comment from "../../components/Comment";
+import pcImg from "../../images/pcImg.png";
 import "./style.css";
 
 const Comments = () => {
@@ -46,20 +47,21 @@ const Comments = () => {
             setVisible={setVisible}
           />
         </div>
-        <div className="toast-wrapper">
-          <Row>
-            {commentList.map((comment, index) => (
-              <Comment
-                key={index + comment.name}
-                comment={comment}
-                index={index}
-                toggleHide={toggleHide}
-                visible={visible}
-                date={date}
-              />
-            ))}
-          </Row>
-        </div>
+        <Image id="pcImg" src={pcImg} />
+      </div>
+      <div className="toast-wrapper">
+        <Row>
+          {commentList.map((comment, index) => (
+            <Comment
+              key={index + comment.name}
+              comment={comment}
+              index={index}
+              toggleHide={toggleHide}
+              visible={visible}
+              date={date}
+            />
+          ))}
+        </Row>
       </div>
     </div>
   );
